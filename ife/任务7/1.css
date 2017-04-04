@@ -1,0 +1,293 @@
+body{
+	min-width: 1280px;	
+	margin:0px;
+}
+div#body{
+	width: 1280px;
+}
+header{
+	height: 55px;
+}
+div#hl1{
+	margin: 13px 0px 5px 40px;
+	width: 500px;
+}
+div#hl1 span{
+	font-size: 21px;
+  	font-family: "SimHei";
+	color: rgb(57, 58, 58);
+  	line-height: 1.286;
+}
+div#hl1 span img{
+	margin-right: 11px;
+}
+div#hr1{
+	float: right;
+}
+div#hr1 ul{
+	display: inline-block;
+	list-style: none;
+	margin-bottom: 0px;
+	margin-right: 40px;
+}
+div#hr1 ul li{
+	font-size: 14px;
+  	font-family: "Microsoft YaHei";
+  	line-height: 1.929;
+  	float: left;
+  	margin-right: 17px;
+  	width: 65px;
+  	text-align: center;
+  	border-bottom: 5px solid white;
+}
+div#hr1 ul li#red{
+	color: rgb(231, 79, 77);
+}
+div#hr1 ul li a:link{
+	text-decoration: none;
+	color: rgb(181,183,187);
+}
+div#hr1 ul li a:visited{
+	text-decoration: none;
+	color: rgb(181,183,187);
+}
+div#hr1 ul li a:hover{
+	border-bottom: 5px rgb(231, 79, 77) solid;
+}
+section#s1{
+	height: 690px;
+	background: url(b2.jpg) no-repeat;
+	margin-top: 0px;
+}
+div#s1l1{
+	padding-top: 266px;
+	padding-left: 115px;
+	width: 600px;
+	height: 690px;
+	box-sizing: border-box;
+}
+div#s1l1 p#p1{
+  font-size: 60px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  line-height: 0.45;
+  margin:0px;
+  margin-bottom: 40px;
+}
+div#s1l1 p#p2{
+	font-size: 21px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb(255, 253, 253);
+  	line-height: 0.762;
+}
+div#button1{
+	width: 331px;
+  	height: 65px;
+  	color: white;
+  	background: rgb(231,79,77);
+  	font-size: 30px;
+  	font-family: "Microsoft YaHei";
+  	text-align: center;
+  	vertical-align: middle;
+  	margin-top: 60px;
+  	display: table-cell;
+}
+section#s2{
+	height: 252px;
+	display: table;
+	margin-right: -10px;
+	width: 1280px;
+}
+div#s2t1{
+	display: table-cell;	
+}
+div#s2t1 div#t1{
+	height: 134px;
+	position: relative;
+}
+div#s2t1 div#t1 img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -21px;
+	margin-left: -21px;
+}
+div#s2t1 div#b1{
+	text-align: center;
+	margin-bottom: 80px;
+	border-right: solid 2px rgb(118,119,118);
+}
+div#s2t1 div#b2{
+	border-right: 0px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+div#s2t1 div#b1,div#b2 span{
+	font-size: 14px;
+  	font-family: "SimHei";
+  	color: rgb(118, 119, 119);
+  	line-height: 1.286;
+}
+section#s3{
+	height: 361px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	width: 1280px;
+	background: rgb(237,237,237);
+}
+section#s3 img{
+	margin-top: 60px;
+}
+section#s3 p{
+	font-size: 53.586px;
+  	font-family: "SimHei";
+  	color: rgba(50, 51, 51, 0.502);
+  	line-height: 1.056;
+}
+section#s4{
+	width: 1280px;
+	height: 343px;
+	background: url("b3.jpg") rgb(232,208,208);
+}
+div#s4t1{
+	width: 1280px;
+	height: 143px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+p#s4p1{
+  	font-size: 21px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb(255, 255, 255);
+  	line-height: 1.994;
+  	margin: 0px;
+  	margin-top: 50px;
+}
+p#s4p2{
+	border-top: 3px solid rgb(255,255,255);
+	margin: 0px;
+	width: 40px;
+	height: 10px;
+	position: relative;
+	left: 50%;
+	margin-left: -20px;
+}
+p#s4p3{
+	font-size: 12px;
+  	font-family: "Microsoft YaHei";
+  	color: rgba(255, 255, 255, 0.8);
+  	line-height: 2.605;
+  	margin: 0px;
+}
+div#s4b1{
+	width: 1280px;
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+div#s4b1s{
+	display: inline;
+}
+div#s4b1s select{
+	width: 236px;
+	height: 36px;
+}
+div#s4b1s select option{
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+    color: rgb(168, 170, 170); 	  
+    line-height: 2.213;
+}
+div#s4b1s input{
+	width: 236px;
+  	height: 36px;
+  	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	color: rgb(255, 255, 255);
+	line-height: 1.896;
+	background: rgb(191,79,73);
+	border:none;
+}
+
+section#s5{
+	height: 750px;
+	width: 1280px;
+}
+div#s5t1{
+	height: 280px;
+	text-align: center;
+}
+p#s5p1{
+	font-size: 21px;
+  	font-family: "SimHei";
+  	color: rgb(50, 51, 51);
+  	line-height: 1.446;
+  	text-align: center;
+}
+p#s5p2{
+	font-size: 12px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb(170, 170, 170);
+  	line-height: 1.5;
+  	text-align: center;
+ 
+}
+p#s5p3{
+	border-top: 3px solid rgb(2234,101,99);
+	margin: 0px;
+	width: 40px;
+	height: 10px;
+	position: relative;
+	left: 50%;
+	margin-left: -20px;
+}
+div#s5b1{
+	height: 470px;
+	text-align: center;
+}
+div#s5b1 form{
+	text-align: center;
+}
+fieldset{
+	display: table-row;
+	border: 0px;
+}
+fieldset p#p1{
+	font-size: 14px;
+  	font-family: "SimHei";
+  	color: rgba(35, 24, 21, 0.8);
+  	line-height: 1.929;
+}
+fieldset p#p2{
+  	font-size: 12px;
+  	font-family: "SimSun";
+  	color: rgba(35, 24, 21, 0.6);
+  	line-height: 1.75;
+}
+fieldset div{
+	display: table-cell;
+  	width: 40%;
+}
+fieldset div#fl1{
+	vertical-align: top;
+	margin-right: 50px;
+}
+table{
+	border-spacing: 10px;
+}
+form input{
+   	width: 311px;
+  	height: 41px;
+  	background: rgb(237,237,237);
+  	border: 0px;
+  	padding: 0px;
+ }
+textarea{
+	background: rgb(237,237,237);
+}
+input#i1{
+	text-align: center;
+}
